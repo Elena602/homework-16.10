@@ -18,7 +18,7 @@ void ChangeArray(int[,] matr)
         {
             if (i % 2 == 0 && j % 2 == 0)
             {
-                matr[i,j] = i * i + j * j;
+                matr[i,j] = matr[i,j] * matr[i,j];
             }
         }
     }
